@@ -1,6 +1,6 @@
 Package.describe({
   name: 'panter:healthroute',
-  version: '0.0.1',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'simple package that adds a route __health',
   // URL to the Git repository containing the source code for this package.
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.8.0.2')
   api.use('ecmascript')
   api.use('webapp')
-  api.mainModule('healthroute.js')
+  api.mainModule('healthroute.js', ['server'])
 })
 
 Package.onTest(function(api) {
