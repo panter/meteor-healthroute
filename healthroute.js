@@ -27,8 +27,6 @@ export const getBuildInfo = () => {
       }
     }
 
-    console.log({ buildInfo });
-
     return buildInfo;
   } catch (err) {
     console.error("loading the build info failed", err);
