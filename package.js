@@ -1,6 +1,6 @@
 Package.describe({
   name: "panter:healthroute",
-  version: "0.2.1",
+  version: "0.3.0",
   // Brief, one-line summary of the package.
   summary: "simple package that adds a route __health",
   // URL to the Git repository containing the source code for this package.
