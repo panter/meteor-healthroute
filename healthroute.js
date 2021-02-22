@@ -68,7 +68,6 @@ WebApp.connectHandlers.use(`/__health`, (req, res) => {
   const success = Object.values(healthCheckResults).every(
     (r) => r.result === true
   );
-  console.log({ success, healthCheckResults });
 
   if (success) {
     res.writeHead(200);
